@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", "Poppins", sans-serif;
+}
+
+#header {
+  display: flex;
+  padding: 20px;
+  font-size: 60px;
+  justify-content: center;
+  margin: 100px;
+}
+
+#main {
+  display: flex;
+  padding: 20px;
+  font-size: 22px;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  padding: 20px;
+  font-size: 22px;
+  justify-content: center;
+}
+
+#footer {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+/* CSS básico para a imagem de fundo responsiva */
+body {
+  background-image: url("./assets/kalai.jpeg");
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* Consulta de mídia para ajustar o comportamento da imagem de fundo em telas menores */
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+    color: rgb(62, 151, 228);
+  }
+}
